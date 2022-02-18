@@ -21,9 +21,9 @@ In this project you will be given a set of requirements and must design a databa
 
 ### Files to Complete
 
-1. `package.json`
-2. `index.js`
-3. `api/server.js`
+1. `package.json` done
+2. `index.js` done
+3. `api/server.js` done 
 4. `model.js` inside `api/project`, `api/resource` and `api/task`
 5. `router.js` inside `api/project`, `api/resource` and `api/task`
 6. migration file(s)
@@ -35,7 +35,7 @@ The project needs some additional NPM dependencies in order to work.
 
 ### Required Scripts
 
-Add `"start"`. `"server"`, `"migrate"` and `"rollback"` scripts to the `package.json` file. The tests depend on these scripts being correct!
+Add `"start"`. `"server"`, `"migrate"` and `"rollback"` scripts to the `package.json` file. The tests depend on these scripts being correct! done 
 
 ### Required Tables
 
@@ -111,6 +111,15 @@ Build an API inside the `api` folder with endpoints for:
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+
+Relational databases store data using relational tables. SQL is the standard language that most of these types of databases use to query, manipulate and aggregate the data. While the database holds the data, with SQL we can turn it into usable information.
+
 2. Why do tables need a Primary Key?
+
+Primary keys are the unique identifier for a row of data and absolutely every table should contain a primary key column. Primary keys also help us link tables together as they can become foreign keys on another table.
+
 3. What is the name given to a table column that references the Primary Key on another table?
+
+A foreign key points to the primary key on another table.
+
 4. What do we need in order to have a _many to many_ relationship between two tables?
